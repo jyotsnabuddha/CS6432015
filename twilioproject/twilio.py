@@ -6,7 +6,7 @@ app = Flask(__name__)
  
 @app.route("/", methods=['GET', 'POST'])
 def hello_monkey():
-    """Respond and greet the caller by name."""
+    """Respond and greet the caller with my name."""
  
     from_number = request.values.get('From', None)
      message ="Hello from CS6432015 jyotsna buddha"
